@@ -6,80 +6,130 @@ html {
 div.header {
     background-color: white;
     width: 100%;
-    height: 80px;
-    align-items: center;
+    height: 200px;
+    text-align: right;
 
 }
 
 div.header-item {
-    display: flex;
-    width: 1000%;
-    max-width: 2000px;
+    margin-left: 300px;
     align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    z-index:3;
+    position: relative;  
 }
 
 div.header-title {
-    font-family: 'Caveat', cursive;
     font-size: 20;
     text-align: center;
 }
 
-div.page-grey{
+div.main-page{
     width: 100%;
-    background-color: rgba(240, 246, 247, 0.867);
+    background-color: white;
     display: flex;
     flex-direction: column;
-    height: 810px;
+    height: 3000px;
+
 }
 
-div.page{
-    width: 100%;
-    background-color: rgba(220, 241, 243, 0.867);
+div.block{
+    width: 65%;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    height: 810px;
+    height: 3000px;
+
 }
 
 div.container-story{
     align-items: center;
-    height: 700px;
+    height: 1650px;
     width:100%;
 }
 
 div.container-about{
-    align-items: center;
+    align-items: right;
+    align-content: right;
     height: 400px;
-    width:100%;
+    width:35%;
+    background-color: white;
+    margin-top: 160px
 }
 
 div.first-lines {
-    width: 400px;
-    height: 150px;
+    width: 700px;
+    height: 350px;
     background-color: white;
 }
 
 div.flex-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
 }
 
 div.flex-column{
     display: flex;
     flex-direction: column;
+
 }
 
 img.logo{
     width: 200px;
-    height: 80px;
+    height: 150px;
+    align-content: center;
+    align-items: center;
 }
 
 img.photo{
-    width: 400px;
-    height: 500px;
+    width: 700px;
+    height: 800px;
     float: left;
+    vertical-align: middle;
+}
+
+img.profile-pic{
+    width:300px;
+    height:400px;
 }
 
 div.textcontainer{
     display: flex;
+}
+
+div.button{
+    background-color:rgb(208, 242, 237);
+    height: 28px;
+    width: 100px;
+    margin-left: 290px;
+    margin-top: -60px;
+    z-index:2;
+    position:relative;
+
+}
+
+img.IG{
+    width: 60px;
+    height: 60px;
+    margin-left: 380px;
+}
+img.linkedin{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+img.divider{
+    width: 700px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+div.date{
+    margin-left: 405px;
+    margin-top: -33px;
+    font-size: 11;
+    font-weight: bold;
 }
