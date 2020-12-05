@@ -59,19 +59,25 @@ div.container-story{
 div.augsburg{
     background-color: white;
     width:650px;
-    height:1670px
+    height:1680px
 }
 
 div.krieg{
     background-color:white;
     width:650px;
-    height:1870px
+    height:1890px
 }
 
 div.ulm{
     background-color:white;
     width:650px;
     height:1850px;
+}
+
+div.ulm_eng{
+    background-color:white;
+    width:650px;
+    height:1750px;
 }
 
 div.familiy{
@@ -84,10 +90,12 @@ div.container-about{
     align-items: right;
     align-content: right;
     height: 400px;
-    width:700px;
+    width:350px;
     background-color: white;
     margin-top: 160px;
     margin-left: 100px;
+    text-align:justify;
+    line-height: 1.5;
     
 }
 
@@ -177,5 +185,3 @@ div.date{
     font-size: 11;
     font-weight: bold;
 }
-
-
